@@ -1,0 +1,39 @@
+#ex1 div {
+    width: 700px;
+}
+#ex1 p {
+    text-align: justify;
+    line-height: 30px;
+}
+#ex1 img {
+    object-fit: cover;    
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+    border-radius: 100%;
+
+    /* ! */
+    float: left;
+    shape-outside: circle(50%);
+}
+
+#ex2 div#main {
+    width: 600px;
+    float: left;
+}
+#ex2 div {
+    width: 50px;
+    height: 100px;
+    margin: 5px;
+}
+#ex2 .left {
+    background: lightcoral;
+    float: left;
+}
+#ex2 .right {
+    background: lightseagreen;
+    float: right;
+}
+#ex2 p {    
+    text-align: justify;
+}
