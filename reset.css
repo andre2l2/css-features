@@ -32,3 +32,16 @@ section {
     height: 5px;
     background-color: rgb(120, 149, 202);
 }
+
+span.red {
+    color: #ef476f;
+}
+span.blue {
+    color: #2ec4b6;
+}
+span.green {
+    color: #e8fccf;
+}
+span.prop {
+    color: #43aa8b;
+}

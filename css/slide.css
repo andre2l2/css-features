@@ -123,5 +123,91 @@
     text-align: justify;
 }
 
-/* ============ ex8 =========== */
+/* ============ ex10 =========== */
 
+#ex9 {
+    display: flex;
+    flex-direction: column;
+}
+
+#ex9 .chat {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+#ex9 h1 {
+    position: relative;
+    top: 28%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #e76f51;
+    text-align: center;
+}
+
+/* ============ ex10 =========== */
+
+#ex10 {
+    display: flex;
+    flex-direction: column;
+}
+
+#ex10 h1 {
+    margin-bottom: 30px;
+}
+
+#ex10 div {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#ex10 div :where(
+    .triangle,
+    .pentagon,
+    .square,
+    .chat
+) {
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    cursor: pointer;
+    position: relative;
+}
+
+#ex10 div .triangle {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+#ex10 div .triangle .red {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: #ef476f;
+}
+
+#ex10 div .pentagon {
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+#ex10 div .square {
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+} 
+
+#ex10 div .chat {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+#ex10 div .chat .green {
+    position: absolute;
+    top: 74px;
+    width: 100px;
+    height: 40px;
+    background-color: #3c6e71;
+}
+
+#ex10 p {
+    margin-top: 30px;
+}
