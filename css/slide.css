@@ -135,6 +135,7 @@
     width: 200px;
     height: 200px;
     background: #ffffff;
+    box-shadow: 5px 5px 0 #e76f51;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
 }
 
@@ -210,4 +211,78 @@
 
 #ex10 p {
     margin-top: 30px;
+}
+
+/* ============ ex11 =========== */
+
+#ex11 h1 {
+    font-size: 50px;
+}
+
+/* ============ ex12 =========== */
+
+#ex12 div img {
+    width: 500px;
+}
+
+/* ============ ex13 =========== */ 
+
+#ex13 div p {
+    font-size: 40px;
+}
+
+/* ============ ex14 =========== */ 
+
+#ex14 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#ex14 div h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+/* ============ ex15 =========== */ 
+
+#ex15 div img {
+    width: 500px;
+}
+
+/* ============ ex16 =========== */ 
+
+#ex16 {
+    display: flex;
+    flex-direction: column;
+}
+
+#ex16 div img {
+    margin-bottom: 30px;
+    width: 500px;
+}
+
+/* ============ ex17 =========== */ 
+
+#ex17 .gradient1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: conic-gradient(#caf0f8 30deg, #ade8f4 30deg 60deg, #90e0ef 60deg 120deg, #48cae4 120deg 180deg, #00b4d8 180deg 240deg, #0096c7 240deg, 300deg, #023e8a 300deg);
+}
+
+#ex17 .gradient2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: conic-gradient(brown 30deg, green 30deg 120deg, blue 120deg 240deg, yellow 240deg 310deg, brown 310deg);
+}
+
+#ex17 .gradient3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: conic-gradient(red 50deg, green 50deg 150deg, blue 150deg 240deg, yellow 240deg 300deg, brown 300deg);
 }
